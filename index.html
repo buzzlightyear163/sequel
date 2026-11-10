@@ -292,7 +292,7 @@ footer .fine{display:flex;gap:24px;flex-wrap:wrap;margin-top:50px;font-size:12px
   <div class="eyebrow"><b>02</b> · studio <i></i></div>
   <h2><span class="pr">%</span>sequel &lt;runner&gt;</h2>
   <p class="lede">The whole kit from one paste. Part I is read live from public data, Part II is written here in your browser. No keys, no account.</p>
-  <form class="card run" id="st-form" novalidate><span class="mut pp">anon@sequel ~ % sequel</span><input id="st-in" type="text" autocomplete="off" spellcheck="false" placeholder="paste a ca, a pump.fun link or a ticker" aria-label="runner to read"><button class="btn pri sm" type="submit">run ↵</button></form>
+  <form class="card run" id="st-form" novalidate><span class="mut pp">anon@sequel ~ % sequel</span><input id="st-in" type="text" autocomplete="off" spellcheck="false" placeholder="paste a ca, a link or a ticker" aria-label="runner to read"><button class="btn pri sm" type="submit">run ↵</button></form>
   <div class="tryrow"><span class="mut"># try a faded runner</span><button class="chip" type="button" data-try="ED5nyyWEzpPPiWimP8vYm7sD7TD3LAt3Q3gRTWHzPJBY">moodeng</button><button class="chip" type="button" data-try="2qEHjDLDLbuBgRYvsxhc5D6uDWAivNFZGan56P1tpump">pnut</button><button class="chip" type="button" data-try="A8C3xuqscfmyLrte3VmTqrAq8kgMASius9AFNANwpump">fwog</button><span class="lamp" id="st-lamp">example</span></div>
   <p class="err" id="st-err" hidden></p>
 
@@ -315,11 +315,11 @@ footer .fine{display:flex;gap:24px;flex-wrap:wrap;margin-top:50px;font-size:12px
           <div class="ph"><div><h3><span class="pr">%</span><span id="ti-h">name part II</span></h3><p>Pick a title and a ticker, or type your own. The rest of the kit follows.</p></div></div>
           <div class="two">
             <div><div class="lbl"># title</div><div class="opts" id="opt-title"></div><input class="line" id="in-title" maxlength="32" placeholder="or type a title" aria-label="custom title"></div>
-            <div><div class="lbl"># ticker</div><div class="opts" id="opt-ticker"></div><input class="line" id="in-ticker" maxlength="10" placeholder="or type a ticker" aria-label="custom ticker"><div class="hint">max 10 characters, like pump.fun.</div></div>
+            <div><div class="lbl"># ticker</div><div class="opts" id="opt-ticker"></div><input class="line" id="in-ticker" maxlength="10" placeholder="or type a ticker" aria-label="custom ticker"><div class="hint">max 10 characters.</div></div>
           </div>
         </div>
         <div class="panel" data-panel="lore" hidden>
-          <div class="ph"><div><h3><span class="pr">%</span>cat lore.txt</h3><p>Three acts written from Part I's real numbers. The logline fits pump.fun's description field.</p></div><div class="acts"><button class="btn sm" type="button" id="lore-reroll">rewrite ↻</button><button class="btn sm" type="button" id="lore-copy">copy</button></div></div>
+          <div class="ph"><div><h3><span class="pr">%</span>cat lore.txt</h3><p>Three acts written from Part I's real numbers. The logline fits LaunchLab's description field.</p></div><div class="acts"><button class="btn sm" type="button" id="lore-reroll">rewrite ↻</button><button class="btn sm" type="button" id="lore-copy">copy</button></div></div>
           <div class="lbl"># logline · <span id="logline-n">0</span> chars</div>
           <div class="logline" id="logline">—</div>
           <div class="act3"><div><div class="lbl"># previously</div><p id="act-0">—</p></div><div><div class="lbl"># then</div><p id="act-1">—</p></div><div><div class="lbl"># part II</div><p id="act-2">—</p></div></div>
@@ -334,7 +334,7 @@ footer .fine{display:flex;gap:24px;flex-wrap:wrap;margin-top:50px;font-size:12px
               <div class="lbl" style="margin-top:18px"># palette from part I</div>
               <div class="pal" id="palette"></div>
               <div class="acts" style="margin-top:20px"><a class="btn pri sm" id="logo-dl" download="part-ii.png" href="#">save png · 1000²</a><button class="btn sm" type="button" id="card-btn">sequel card ↗</button></div>
-              <div class="hint" id="logo-hint">1000×1000 png, ready for pump.fun.</div>
+              <div class="hint" id="logo-hint">1000×1000 png, ready for LaunchLab.</div>
             </div>
           </div>
         </div>
@@ -349,11 +349,11 @@ footer .fine{display:flex;gap:24px;flex-wrap:wrap;margin-top:50px;font-size:12px
           <div class="hint" id="post-n">—</div>
         </div>
         <div class="panel" data-panel="launch" hidden>
-          <div class="ph"><div><h3><span class="pr">%</span><span id="ln-h">launch part II</span></h3><p>One click copies the kit and opens pump.fun's create page. Paste, upload the logo, launch.</p></div></div>
+          <div class="ph"><div><h3><span class="pr">%</span><span id="ln-h">launch part II</span></h3><p>One click copies the kit and opens Raydium LaunchLab's create page. Paste, upload the logo, launch.</p></div></div>
           <div class="check" id="check"></div>
-          <div class="acts" style="margin-top:20px"><button class="btn pri" type="button" id="launch-go">copy kit &amp; open pump.fun ↗</button><a class="btn" id="launch-logo" download="part-ii.png" href="#">save logo</a></div>
+          <div class="acts" style="margin-top:20px"><button class="btn pri" type="button" id="launch-go">copy kit &amp; open launchlab ↗</button><a class="btn" id="launch-logo" download="part-ii.png" href="#">save logo</a></div>
           <div class="hint" id="launch-hint">copies name, ticker and description in one block.</div>
-          <div class="next"><b>next ·</b> one-click launch from the studio: sign once in your wallet and Part II is live on pump.fun with this kit. Paid for by $SEQUEL creator fees.</div>
+          <div class="next"><b>next ·</b> one-click launch from the studio: sign once in your wallet and Part II is live on LaunchLab with this kit. Paid for by $SEQUEL fees.</div>
         </div>
       </div>
     </div>
@@ -385,7 +385,7 @@ footer .fine{display:flex;gap:24px;flex-wrap:wrap;margin-top:50px;font-size:12px
 <section class="s" id="fees"><div class="wrap">
   <div class="eyebrow"><b>05</b> · where the fees go <i></i></div>
   <h2><span class="pr">%</span>sequel fees --split</h2>
-  <p class="lede">The studio is free. Creator fees from $SEQUEL pay for what comes next, split the same way every time.</p>
+  <p class="lede">The studio is free. Fees from $SEQUEL on LaunchLab pay for what comes next, split the same way every time.</p>
   <div class="split" id="split"></div>
   <div class="rows" id="feerows"></div>
   <div class="grid g3" style="margin-top:40px">
@@ -400,9 +400,9 @@ footer .fine{display:flex;gap:24px;flex-wrap:wrap;margin-top:50px;font-size:12px
   <h2><span class="pr">%</span>sequel token</h2>
   <div class="grid g2" style="margin-top:34px;align-items:start">
     <div class="card"><div class="rows">
-      <div><span class="mut" style="width:9em">ticker</span>$SEQUEL</div><div><span class="mut" style="width:9em">chain</span>solana · pump.fun</div>
+      <div><span class="mut" style="width:9em">ticker</span>$SEQUEL</div><div><span class="mut" style="width:9em">chain</span>solana · raydium launchlab</div>
       <div><span class="mut" style="width:9em">supply</span>1,000,000,000</div><div><span class="mut" style="width:9em">ca</span><span id="ca-tok" style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">posted here and on X at launch</span></div></div>
-      <div class="ctas"><a class="btn pri" id="buy" href="https://pump.fun" target="_blank" rel="noopener">buy on pump.fun</a><a class="btn" id="xlink" href="#" target="_blank" rel="noopener">follow on X</a></div></div>
+      <div class="ctas"><a class="btn pri" id="buy" href="https://raydium.io/launchpad/" target="_blank" rel="noopener">buy on raydium</a><a class="btn" id="xlink" href="#" target="_blank" rel="noopener">follow on X</a></div></div>
     <div class="card"><div class="mut" style="font-size:12px;margin-bottom:10px"># roadmap</div>
       <ul class="road">
         <li><span>on at launch</span>the studio: read any runner, verdict, title, lore, logo, site, post</li>
@@ -421,7 +421,7 @@ footer .fine{display:flex;gap:24px;flex-wrap:wrap;margin-top:50px;font-size:12px
     <details open><summary>is this financial advice?</summary><p>No. A "greenlit" verdict only means Part I topped, faded and still has holders. Sequel never says buy, and it never will.</p></details>
     <details><summary>is a sequel a cto?</summary><p>No. A CTO takes over the old coin and its old chart, with every top buyer still holding above you. A sequel is a new coin that says openly it is Part II. It starts at zero and borrows the story, not the bags.</p></details>
     <details><summary>where does the data come from?</summary><p>DexScreener for the market, GeckoTerminal for holders and the daily chart, pump.fun for the coin's own peak. All public, read live, no keys. Peak means the highest market cap those sources report.</p></details>
-    <details><summary>does it launch the coin for me?</summary><p>Not yet. Today the studio builds the kit and opens pump.fun with everything copied, and you launch it yourself. One-click launch is next, paid for by creator fees.</p></details>
+    <details><summary>does it launch the coin for me?</summary><p>Not yet. Today the studio builds the kit and opens Raydium LaunchLab with everything copied, and you launch it yourself. One-click launch is next, paid for by $SEQUEL's fees.</p></details>
     <details><summary>can I make a sequel of any coin?</summary><p>You can read any coin. What you launch is your call. Every kit says it is Part II of the original and never claims to be the original team. Don't use art you don't have the rights to.</p></details>
     <details><summary>will sequel DM me?</summary><p>Never. No presale, no airdrop form, no support account. Anyone who DMs you as sequel is not us.</p></details>
   </div>
@@ -429,7 +429,7 @@ footer .fine{display:flex;gap:24px;flex-wrap:wrap;margin-top:50px;font-size:12px
 
 <footer><div class="wrap">
   <div class="big">every runner gets a <b>part two.</b><span class="cur"></span></div>
-  <div class="ctas"><a class="btn pri" href="#studio">open the studio</a><a class="btn" id="buyFoot" href="https://pump.fun" target="_blank" rel="noopener">buy $SEQUEL</a></div>
+  <div class="ctas"><a class="btn pri" href="#studio">open the studio</a><a class="btn" id="buyFoot" href="https://raydium.io/launchpad/" target="_blank" rel="noopener">buy $SEQUEL</a></div>
   <div class="fine"><span>$SEQUEL · solana</span><span>not financial advice</span><span id="cafoot"></span></div>
 </div></footer>
 
@@ -631,7 +631,7 @@ const TK = (() => {
 if (typeof module !== "undefined") module.exports = TK;
 </script>
 <script>
-const CONFIG = { ca:"5RUCy8XYDVxpt7H1dT77QDMaas7ocRw5yJUTcuCKpump", x:"https://x.com/SequelKit", dexscreener:"https://dexscreener.com/solana/5RUCy8XYDVxpt7H1dT77QDMaas7ocRw5yJUTcuCKpump", site:"", ticker:"$SEQUEL", object:"sequel", theme:document.documentElement.dataset.theme };
+const CONFIG = { ca:"4bDmBT6HqXBPpKF7vVAkTkeDiuX1NWz7m5cZFVA3J8kH", x:"https://x.com/SequelKit", dexscreener:"https://dexscreener.com/solana/4bDmBT6HqXBPpKF7vVAkTkeDiuX1NWz7m5cZFVA3J8kH", site:"", ticker:"$SEQUEL", object:"sequel", theme:document.documentElement.dataset.theme };
 const T = TK.THEMES[CONFIG.theme];
 const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
 const inFrame = (() => { try { return window.self !== window.top; } catch (e) { return true; } })();
@@ -715,14 +715,15 @@ function parseRaw(raw){
   if (best){ r.ath = Math.max(best.v, r.mcap || 0); r.athAt = best.t; r.athSrc = best.src; } else { r.ath = r.mcap; r.athAt = null; r.athSrc = ""; }
   r.created = (pf && toMs(pf.created_timestamp)) || (r.candles[0] && r.candles[0].t) || (p && toMs(p.pairCreatedAt)) || null;
   if (r.athAt && r.created && r.athAt < r.created) r.created = r.athAt;
-  r.links = [["dexscreener", r.dexUrl], ["pump.fun", `https://pump.fun/coin/${raw.mint}`]];
+  r.links = [["dexscreener", r.dexUrl]]; if (pf) r.links.push(["pump.fun", `https://pump.fun/coin/${raw.mint}`]); else if (/launch/i.test(((p && p.dexId) || "") + " " + ((p && p.labels) || []).join(" "))) r.links.push(["launchlab", `https://raydium.io/launchpad/token/?mint=${raw.mint}`]);
   const tw = (pf && pf.twitter) || ((info.socials || []).find(s => s.type === "twitter") || {}).url;
   if (tw) r.links.push(["x", tw]);
   return r;
 }
 async function resolveMint(input){
   const s = String(input || "").trim();
-  if (!s) throw new Error("paste a contract address, a pump.fun or dexscreener link, or a ticker.");
+  if (!s) throw new Error("paste a contract address, a pump.fun, raydium or dexscreener link, or a ticker.");
+  const rm = s.match(/raydium\.io\/.*[?&]mint=([1-9A-HJ-NP-Za-km-z]{32,44})/i); if (rm) return rm[1];
   const pm = s.match(/pump\.fun\/(?:coin\/)?([1-9A-HJ-NP-Za-km-z]{32,44})/i); if (pm) return pm[1];
   const dm = s.match(/dexscreener\.com\/solana\/([1-9A-HJ-NP-Za-km-z]{32,44})/i);
   if (dm){ try { const t = await getJSON(`${DS}/latest/dex/pairs/solana/${dm[1]}`); const p = bestPair(t.pairs || (t.pair ? [t.pair] : [])); if (p) return p.baseToken.address; } catch (e) {} return dm[1]; }
@@ -769,7 +770,7 @@ function writeLore(r, title, seed){
   const desc = r.desc && r.desc.length > 8 ? r.desc.replace(/https?:\/\/\S+/g, "").split(/(?<=[.!?])\s/)[0].slice(0, 110).replace(/[.!?\s]+$/, "") : "";
   const born = r.created ? fmtMonth(r.created) : null, peakM = r.athAt ? fmtMonth(r.athAt) : null;
   const a0 = pick(R, [
-    `${born ? `In ${born}, ` : ""}${N} showed up on pump.fun${desc ? `: “${desc}.”` : "."} It ran all the way to ${fmtUsd(r.ath)}.`,
+    `${born ? `In ${born}, ` : ""}${N} showed up on ${(r.srcs || []).includes("pump.fun") ? "pump.fun" : "Solana"}${desc ? `: “${desc}.”` : "."} It ran all the way to ${fmtUsd(r.ath)}.`,
     `${N} launched${born ? ` in ${born}` : ""}${desc ? ` as “${desc}”` : ""} and climbed to a ${fmtUsd(r.ath)} peak${peakM ? ` in ${peakM}` : ""}.`,
     `Part I was ${S}. ${desc ? `“${desc}.” ` : ""}It hit ${fmtUsd(r.ath)}${peakM ? ` in ${peakM}` : ""} and the whole timeline knew the name.` ]);
   const hold = r.holders ? pick(R, [`${fmtInt(r.holders)} holders never sold the story.`, `${fmtInt(r.holders)} wallets are still holding it.`, `Still, ${fmtInt(r.holders)} holders stayed.`]) : pick(R, ["The holders stayed anyway.", "The people who were there still remember it."]);
@@ -1010,11 +1011,11 @@ h2{font-size:clamp(26px,3.4vw,38px);font-weight:500;letter-spacing:-.03em;margin
 footer{padding:90px 0 50px}footer .big{font-size:clamp(28px,5vw,56px);letter-spacing:-.04em;line-height:1.05}footer .fine{display:flex;gap:22px;flex-wrap:wrap;margin-top:40px;padding-top:18px;border-top:1px solid var(--hair);font-size:12px;color:var(--muted)}
 @media (max-width:820px){.hero,.acts{grid-template-columns:1fr}}
 </style></head><body>
-<header><div class="w"><img src="${logoSmall}" alt="">${esc(k.title.toLowerCase())}<a class="btn" id="buy-top" href="https://pump.fun" target="_blank" rel="noopener">buy</a></div></header>
+<header><div class="w"><img src="${logoSmall}" alt="">${esc(k.title.toLowerCase())}<a class="btn" id="buy-top" href="https://raydium.io/launchpad/" target="_blank" rel="noopener">buy</a></div></header>
 <main class="w">
 <div class="hero"><img class="logo" src="${logoSmall}" alt="${esc(k.title)} logo">
 <div><div class="prompt">anon@${esc(host)} ~ % part-two --live<span class="cur"></span></div><h1>${esc(k.title)}</h1><p class="lede">${esc(k.logline)}</p>
-<div class="ctas"><a class="btn pri" id="buy" href="https://pump.fun" target="_blank" rel="noopener">buy $${esc(k.ticker)} on pump.fun ↗</a></div>
+<div class="ctas"><a class="btn pri" id="buy" href="https://raydium.io/launchpad/" target="_blank" rel="noopener">buy $${esc(k.ticker)} on raydium ↗</a></div>
 <div class="ca"><span>ca</span><code id="ca">posted here and on X at launch</code></div></div></div>
 <section><div class="eb"><b>01</b> · previously</div><h2><span>%</span>cat part-1.txt</h2>
 <div class="card rows">${row("part I", "$" + R.symbol)}${row("peak", fmtUsd(R.ath))}${row("from peak", dd != null ? fmtPct(dd) : "—")}${row("holders", R.holders ? fmtInt(R.holders) : "—")}${row("part II starts", "block 0")}</div></section>
@@ -1024,7 +1025,7 @@ footer{padding:90px 0 50px}footer .big{font-size:clamp(28px,5vw,56px);letter-spa
 <footer><div class="w"><div class="big">${esc(k.title.toLowerCase())}.<span class="cur"></span></div><div class="fine"><span>$${esc(k.ticker)} · part II of $${esc(R.symbol)}</span><span id="xl"></span><span>not financial advice</span></div></div></footer>
 <script>
 const CONFIG = { ca: "", x: "" }; // paste your CA and X link after launch
-if (CONFIG.ca){ document.getElementById("ca").textContent = CONFIG.ca; ["buy","buy-top"].forEach(function(id){ document.getElementById(id).href = "https://pump.fun/coin/" + CONFIG.ca; }); }
+if (CONFIG.ca){ document.getElementById("ca").textContent = CONFIG.ca; ["buy","buy-top"].forEach(function(id){ document.getElementById(id).href = "https://raydium.io/launchpad/token/?mint=" + CONFIG.ca; }); }
 if (CONFIG.x){ var a = document.createElement("a"); a.href = CONFIG.x; a.target = "_blank"; a.rel = "noopener"; a.textContent = "x ↗"; a.style.color = "inherit"; document.getElementById("xl").appendChild(a); }
 <\/script>
 </body></html>`;
@@ -1042,9 +1043,9 @@ function renderLaunch(){
   $("#check").innerHTML = items.map(i => `<div><span class="ok">✓</span><span>${esc(i[0])}</span><em>${esc(i[1])}</em></div>`).join("");
   $("#ln-h").textContent = `launch ${KIT.title.toLowerCase()}`;
 }
-$("#launch-go").addEventListener("click", e => { const w = window.open("https://pump.fun/create", "_blank"); if (w) try { w.opener = null; } catch (er) {}
-  copyText(`Name: ${KIT.title}\nTicker: ${KIT.ticker}\nDescription: ${KIT.logline}`, e.currentTarget, "copied · pump.fun opened");
-  if (!w) $("#launch-hint").textContent = "your browser blocked the new tab. the kit is copied; open pump.fun/create yourself."; });
+$("#launch-go").addEventListener("click", e => { const w = window.open("https://raydium.io/launchpad/create", "_blank"); if (w) try { w.opener = null; } catch (er) {}
+  copyText(`Name: ${KIT.title}\nTicker: ${KIT.ticker}\nDescription: ${KIT.logline}`, e.currentTarget, "copied · launchlab opened");
+  if (!w) $("#launch-hint").textContent = "your browser blocked the new tab. the kit is copied; open raydium.io/launchpad/create yourself."; });
 
 /* tabs */
 document.querySelectorAll(".kit .bar .chip").forEach(b => b.addEventListener("click", () => {
@@ -1076,7 +1077,7 @@ async function loadRunner(input){
   } catch (e){ loading = false; renderSide(); renderMini(); err.textContent = NET.test(e.message) ? netMsg() : e.message; err.hidden = false; return false; }
 }
 $("#st-form").addEventListener("submit", e => { e.preventDefault(); loadRunner($("#st-in").value); });
-$("#st-in").addEventListener("paste", () => setTimeout(() => { const v = $("#st-in").value.trim(); if (isAddr(v) || /pump\.fun|dexscreener\.com/.test(v)) $("#st-form").requestSubmit(); }, 0));
+$("#st-in").addEventListener("paste", () => setTimeout(() => { const v = $("#st-in").value.trim(); if (isAddr(v) || /pump\.fun|raydium\.io|dexscreener\.com/.test(v)) $("#st-form").requestSubmit(); }, 0));
 document.querySelectorAll("[data-try]").forEach(b => b.addEventListener("click", () => { $("#st-in").value = b.dataset.try; loadRunner(b.dataset.try); }));
 
 /* sequel card for X */
@@ -1152,7 +1153,7 @@ function startLive(){
 /* CA + buy links */
 const TOKEN = CONFIG.ca && isAddr(CONFIG.ca) ? CONFIG.ca : null;
 if (TOKEN){ $("#ca").textContent = TOKEN; $("#ca-tok").textContent = TOKEN; $("#copy").hidden = false; $("#cafoot").textContent = "ca " + TOKEN;
-  $("#copy").onclick = () => copyText(TOKEN, $("#copy")); ["#buy", "#buyTop", "#buyFoot"].forEach(s => { $(s).href = "https://pump.fun/coin/" + TOKEN; $(s).target = "_blank"; }); }
+  $("#copy").onclick = () => copyText(TOKEN, $("#copy")); ["#buy", "#buyTop", "#buyFoot"].forEach(s => { $(s).href = "https://raydium.io/launchpad/token/?mint=" + TOKEN; $(s).target = "_blank"; }); }
 if (CONFIG.x) $("#xlink").href = CONFIG.x; else $("#xlink").hidden = true;
 
 /* pinned steps */

@@ -11,7 +11,7 @@ Sajt + fungerande studio för $SEQUEL i termkit-stilen (graphite): monospace, ge
   - logo.png 1000×1000: monumentet i Part I:s färger, eller Part I pixlad med II:t som märke
   - en hel index.html för Part II i samma stil
   - launch-post (CA i reply)
-  - launch: kopierar kitet och öppnar pump.fun/create (one-click står som "next")
+  - launch: kopierar kitet och öppnar Raydium LaunchLab (raydium.io/launchpad/create), one-click står som "next"
   - sequel card för X
 - **03 versus:** cto vs fork vs sequel.
 - **04 live:** pump.fun-launches i realtid. Namn som läser som en part II flaggas. Utan anslutning syns en märkt preview, och räknarna står då på "—".
@@ -24,7 +24,7 @@ x: "",           // https://x.com/dittkonto
 dexscreener: "", // valfritt
 site: "",        // t.ex. "sequel.fun", skrivs på sequel cards
 ```
-Tom `ca` visar "posted here and on X at launch". Köpknapparna går till `https://pump.fun/coin/<ca>`. Avgiftsfördelningen står i `FEES` precis under.
+Tom `ca` visar "posted here and on X at launch". $SEQUEL ligger på Raydium LaunchLab. Köpknapparna går till `https://raydium.io/launchpad/token/?mint=<ca>`. Avgiftsfördelningen står i `FEES` precis under.
 
 ## Deploy
 GitHub → Vercel, Framework: **Other**, ingen build command, output = roten. Lägg `index.html`, `og.png`, `fav.png`, `README.md` och mappen `api/` i repo-roten.
